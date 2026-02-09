@@ -4,7 +4,7 @@ function calculatePrice(price, quantity){
 }
 
 //Discount Feature
-function applyDiscount(total, Discount){
+function applyDiscount(total, discount){
     return total - (total * discount / 100);
 }
 
